@@ -7,18 +7,6 @@ function cekKhodam(event) {
        alert('Nama kisanak tidak boleh kosong!');
    } else {
       const khodam = [
-         'Kodok',
-         'Katak',
-         'Ular',
-         'Buaya',
-         'Kadal',
-         'Kepiting',
-         'Lemur',
-         'Kera',
-         'Kucing',
-         'Anjing',
-         'Kambing',
-         'Sapi',
          'Rangda',
          'Kuntilanak',
          'Tuyul',
