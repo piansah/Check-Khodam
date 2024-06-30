@@ -1,7 +1,7 @@
 // script.js
 function cekKhodam(event) {
    event.preventDefault();
-   const nama = document.getElementById('search').value.trim(); // Trim to remove leading/trailing spaces
+   const nama = document.getElementById('search').value.trim();
    
    if (nama === '') {
        alert('Nama kisanak tidak boleh kosong!');
@@ -71,10 +71,7 @@ function cekKhodam(event) {
       // Update result element
       const resultElement = document.getElementById('result');
       resultElement.textContent = resultText;
-      resultElement.style.color = 'white'; 
-      resultElement.style.textShadow = 'black';
-      resultElement.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 5)'; 
-
+      resultElement.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 5)';
       
       document.getElementById('search').value = '';
    }
